@@ -72,4 +72,17 @@
   .current-location {
     display: none;
   }
+  .search-form {
+    width: 180px;
+    padding: 5px 10px;
+  }
+
+  .search-form input {
+    width: 130px;
+    font-size: 0.9rem;
+  }
+
+  .search-form button {
+    padding: 5px;
+  }
 }
