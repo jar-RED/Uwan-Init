@@ -1,0 +1,36 @@
+.current-weather {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+.weather-main h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.temp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.temperature h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.weather-main p {
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.feels-like {
+  font-style: italic;
+  opacity: 0.8;
+}

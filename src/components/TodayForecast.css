@@ -1,0 +1,58 @@
+.today-forecast {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 30px;
+  overflow-x: auto;
+  margin-top: 10px;
+}
+
+.today-forecast h2 {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.hourly-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  overflow-x: auto;
+  overflow-y: hidden;
+  gap: 15px;
+  padding-bottom: 10px;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+  max-width: 100%;
+}
+
+.hourly-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* min-width: 60px; */
+  min-width: 80px; /* Increase this to force scrolling */
+  flex-shrink: 0;
+}
+
+.hourly-item p {
+  font-size: 0.8rem;
+}
+
+.hourly-item img {
+  width: 40px;
+  height: 40px;
+}
+
+.hourly-item h3 {
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .hourly-container {
+    width: 100%;
+    max-width: 100%;
+    scrollbar-width: thin; /* Show a scrollbar */
+  }
+}

@@ -1,0 +1,42 @@
+.air-conditions {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 22px;
+  margin-top: 10px;
+}
+
+.air-conditions h2 {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.conditions-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.condition {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.condition i {
+  font-size: 1.5rem;
+  width: 30px;
+  text-align: center;
+}
+
+.condition p {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.condition h3 {
+  font-size: 1rem;
+  font-weight: 500;
+}
