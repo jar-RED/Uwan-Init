@@ -9,6 +9,7 @@ import {
   fetchWeatherByCity,
 } from "./services/weatherService";
 import "./App.css";
+import loader from "./assets/Spin@1x-1.0s-200px-200px.svg";
 
 function App() {
   const [weather, setWeather] = useState(null);
@@ -88,7 +89,7 @@ function App() {
         <div className="loading">
           <div className="spinner">
             <img
-              src="src/assets/Spin@1x-1.0s-200px-200px.svg"
+              src={loader}
               alt="loader"
               style={{
                 width: "50%",

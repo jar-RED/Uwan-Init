@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css";
+import logo from "../assets/weather-app.png";
 
 export const Header = ({ city, onSearch }) => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -15,7 +16,7 @@ export const Header = ({ city, onSearch }) => {
   return (
     <header className="header">
       <div className="logo">
-        <img src="src\assets\weather-app.png" className="app-logo" />
+        <img src={logo} className="app-logo" />
         <h1>Uwan-Init</h1>
       </div>
 
