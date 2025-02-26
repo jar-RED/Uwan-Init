@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Header } from "./components/Header";
 import { CurrentWeather } from "./components/CurrentWeather";
 import { Forecast } from "./components/Forecast";
-import { AirConditions } from "./components/Airconditions";
+import { AirConditions } from "./components/AirConditions";
 import { TodayForecast } from "./components/TodayForecast";
 import {
   fetchWeatherByCoords,
